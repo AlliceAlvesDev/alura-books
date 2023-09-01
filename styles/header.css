@@ -7,6 +7,14 @@
     display: inline-block;
 }
 
+.container__botao:checked~.container__rótulo>.cabeçalho__menu-hamburguer {
+    background-image: url("../assests/MenuAberto.svg");
+}
+
+.container__botao:checked~.container__rótulo {
+    background: var(--azul-degrade);
+}
+
 .cabeçalho {
     background-color: var(--branco);
     display: flex;
